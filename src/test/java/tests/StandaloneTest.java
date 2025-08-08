@@ -14,6 +14,7 @@ import org.testng.Assert;
 
 public class StandaloneTest {
     public static void main(String[] args) {
+        // Initialize driver
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
